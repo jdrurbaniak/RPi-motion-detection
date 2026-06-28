@@ -6,7 +6,7 @@ Ta część projektu trójkamerowego systemu fotopułapkowego odpowiada za wykry
 
 - Python 3.13.5
 - 3 kamery na USB (w wersji jaka jest w projekcie muszą być równo 3 kamery, bo inaczej API tego nie przyjmie)
-- Raspberry Pi 3B+ (albo jakikolwiek inny komputer z linuxem)
+- Raspberry Pi 3B+
 
 ## 2. Instalacja
 
