@@ -1,0 +1,14 @@
+.git
+.github
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+captures/
+recordings/
+samples/*.mp4
+!samples/sample.mp4
+tests/
+*.md

@@ -87,7 +87,7 @@ def upload_worker(files_data):
         payload_data = {'batchID': batch_uuid}
 
         try:
-            response = requests.post(API_URL, files=files_payload, data=payload_data)
+            response = requests.post(API_URL, files=files_payload, data=payload_data, timeout=5)
 
             if response.status_code == 200:
                 print(f"[SUCCESS] Wysłano batch {batch_uuid}. Odpowiedź serwera: {response.text}")

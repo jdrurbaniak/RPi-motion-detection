@@ -6,3 +6,13 @@ lib/*
 pyvenv.cfg
 lib64/*
 recordings/*
+
+# DevOps / Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+captures/
+samples/*.mp4
+!samples/sample.mp4
